@@ -6,10 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Opdracht 2</title>
     <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-    <h1>Joe</h1>
+    <h1 class="h1">Joe</h1>
 
+    <div>
+        <input type="range" name="volume" min="0" max="16" step="1" id="slider">
+        <label for="volume">Font-size</label>
+    </div>
+    <button onClick = "toggleNightMode()" id= togBut>Toggle Night Mode</button>
+    <p id="result"></p>
+
+    <div id="mydiv"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tellus diam, ornare sed commodo quis, ornare in risus. Nulla facilisi. Morbi lectus urna, sodales eu consectetur eget, dignissim a leo. Aenean ante turpis, convallis non massa non, tristique convallis purus. Donec varius, tortor vitae porttitor bibendum, augue neque rhoncus massa, ac pharetra justo lectus vitae sapien. Fusce elit est, aliquam quis tellus vitae, facilisis condimentum ligula. Quisque porta nibh nec est tempor, in dapibus sapien blandit. Quisque eget scelerisque dolor. In semper vel ex vitae interdum. Integer tincidunt diam sodales magna molestie, at lobortis arcu lacinia. In finibus et odio rutrum interdum. Nunc rutrum, nisi vel iaculis hendrerit, lectus diam mattis eros, ut fringilla dui nunc non felis.</p></div>
 
 <script src="index.js"></script>
 </body>
