@@ -7,19 +7,32 @@
     <title>Opdracht 2</title>
     <link rel="stylesheet" href="style.css"> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
-<body>
-    <h1 class="h1">Joe</h1>
-
-    <div>
-        <input type="range" name="volume" min="0" max="16" step="1" id="slider">
-        <label for="volume">Font-size</label>
-    </div>
-    <button onClick = "toggleNightMode()" id= togBut>Toggle Night Mode</button>
-    <p id="result"></p>
-
-    <div id="mydiv"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tellus diam, ornare sed commodo quis, ornare in risus. Nulla facilisi. Morbi lectus urna, sodales eu consectetur eget, dignissim a leo. Aenean ante turpis, convallis non massa non, tristique convallis purus. Donec varius, tortor vitae porttitor bibendum, augue neque rhoncus massa, ac pharetra justo lectus vitae sapien. Fusce elit est, aliquam quis tellus vitae, facilisis condimentum ligula. Quisque porta nibh nec est tempor, in dapibus sapien blandit. Quisque eget scelerisque dolor. In semper vel ex vitae interdum. Integer tincidunt diam sodales magna molestie, at lobortis arcu lacinia. In finibus et odio rutrum interdum. Nunc rutrum, nisi vel iaculis hendrerit, lectus diam mattis eros, ut fringilla dui nunc non felis.</p></div>
-
+<body id='darkmode'>
+    <header>
+        <i class="fas fa-cog" id="settingsIcons"></i>
+        <i class="fas fa-user"></i>
+    </header>
+    <div id="settings">
+            <div>
+                <input type="range" name="volume" min="0" max="16" step="1" id="slider">
+                <label for="volume">Font-size</label>
+            </div>
+            <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="s9hoh6r-4 gJgHHW"><path fill="inherit" d="M1.75,9.375 L1.75,1.75 L18.25,1.75 L18.25,9.375 L1.75,9.375 Z M1.75,18.25 L1.75,10.625 L18.25,10.625 L18.25,18.25 L1.75,18.25 Z"></path></svg>
+           
+            <button onClick = "toggleNightMode()" id= togBut>Toggle Night Mode</button>
+            <p id="result"></p>
+        </div>
+    <main id="main">
+        <div id="mydiv"><img src="./img/gravel.png"><p>Dit smaakt naar gravel</p></div>
+        <div id="mydiv"><img src="./img/gravel.png"></div>
+        <div id="mydiv"><img src="./img/gravel.png"></div>
+        <div id="mydiv"><img src="./img/gravel.png"></div>
+        <div id="mydiv"><img src="./img/gravel.png"></div>
+        <div id="mydiv"><img src="./img/gravel.png"></div>
+        <div id="mydiv"><img src="./img/gravel.png"></div>
+        </main>    
 <script src="index.js"></script>
 </body>
 </html>
